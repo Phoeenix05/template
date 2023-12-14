@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = []
+
+[workspace.package]
+authors = ["Anton Fredriksson <anton.e.fredriksson@icloud.com>"]
+
+[package]
+name = "template"
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+
+[dependencies]
+# project dependencies
+
+[dev-dependencies]
+criterion = "0.5.1"
+eyre = "0.6.11"
+
+[features]
+default = []
+
